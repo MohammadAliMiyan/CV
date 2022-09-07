@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contact details</title>
+</head>
+<body>
+    <h1><strong>You can contact me on these platforms: </strong></h1>
+    <p>Chowk, Lucknow</p>
+    <p>9035602626</p>
+    <p>mohammadalimiyan@gmail.com</p>
+    <ul>
+        <li><a href="https://support.google.com/mail/answer/56256?hl=en"><em>E-mail</em></a></li>
+        <li><a href="https://in.linkedin.com/in/mohammad-ali-miyan-62b108215"><em>LinkedIn</em></a></li>
+    </ul>
+    <hr>
+
+    <!-- creating the form tag-->
+    <form  action="mailto:dummy@gmail.com" method="post" enctype="text/plain">
+        <!-- enctype is an encription just like the utf -->
+        <!-- form tag to create the form-->
+        <!-- here action will go back to the index.html
+        or we can change to mail to using "mailto:abcd@gmail.com" or use Index.html to forward this to index page
+        this will open the mail app of the user. -->
+
+        <label>Your Name</label> <!-- the text which will appear-->
+        <input type="text" name="Your Name" value=" "><!-- takes input with its type -->
+        
+        <input type="color" name="" id=""><br> <!-- for color selection box-->
+        
+        <label for="">Do you want to signup to the email list? </label>
+        <input type="checkbox"><br><!-- for checkbox -->
+
+        <label for="">Enter Your Email</label>
+        <input type="email" name="Your Email"> <br>
+
+        <label for="">Create a Password for Login.</label>
+        <input type="password"><br><!-- for hiding or typing the password-->
+        
+        <label for="">Your Message</label><br>
+        <textarea name="name" rows="10" cols="30"></textarea><br>
+        <input type="submit" name="" id=""><!-- for submitting the form -->
+
+        <!-- there are lot more input elements like, radio, file, range, date...etc.-->
+    </form>
+</body>
+</html>

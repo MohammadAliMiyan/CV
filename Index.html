@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Language of my code which will be presented on the browser.-->
+<head>
+    <meta charset="UTF-8">  <!--(Unified table Format) list of all available characters we can use-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali's Personal Site</title><!--title name is showed in tab of browser.-->
+</head>
+<body>
+    <table cellspacing="70">
+        <!-- to create a profile text just adjacent to photo, we use table-->
+        <!-- we then treat img as one column and details as other -->
+        <!-- cell spacing is use to give space between the cells -->
+        <tr>
+            <td> <img src="https://media-exp1.licdn.com/dms/image/D4D03AQEWyMsHLU4Kzw/profile-displayphoto-shrink_200_200/0/1662293990426?e=2147483647&v=beta&t=K4MLbuwxJ2e_J2dld_5SHyKlLu4faqXbKuvUWN3uMTQ" alt="My Profile Photo"></td>
+            <td>
+                <h1>Mohammad Ali Miyan</h1><!-- -->
+   
+                <p><em>Student of Computer Science and Engineering Student at </em><strong>
+                <a href="https://www.niet.co.in/"><!-- Anchor tag waith href attribute, creates the hyperlink-->
+                 NIET
+                </a>
+                </strong>
+                </p><!--Paragraph tag-->
+                <p>I am also learning full stack development</p>
+    
+            </td>
+        </tr>
+    </table>
+    
+    <!-- for changing the shape of the image we just crop the image in the desired shape-->
+    
+    
+    <br><!-- breaks the line-->
+   
+    <hr><!-- makes a line-->
+    <h3>Education</h3>
+    
+    <ul><!-- Unordered List-->
+       
+        <li><a href="https://www.niet.co.in/">Noida Institute of Engineering and Technology </a></li>
+        <li><a href="http://stclaresconventschoollucknow.com/">St Clare's Convent School</a></li>
+        
+    </ul>
+
+    <hr size="3" noshade>
+    <h3>Education Background</h3>
+    
+    <table cellspacing="10"><!-- for creating table -->
+        <thead><!----> <!-- table head -->
+            <!-- we can use below code directly into the table tag , but when scrolled it will move too -->
+            <!-- Hence we use thead to so that it do not move while scrolling down the elements. -->
+            <tr>
+                <th> <!-- table heading-->
+                    DATE
+                </th>
+                <th> 
+                    Education
+                </th>
+            </tr>
+        </thead>
+        
+        <tbody><!-- table body -->
+
+        </tbody>
+        <tr><!-- Table row-->
+            <td>2017</td><!-- for cell or table data-->
+            <td>CBSE High School</td>
+            
+
+        </tr>
+        <tr>
+            <td>2018-2019</td><!-- table data , which will go inside the row-->
+            <td>Seniar Secondary School</td>
+
+            
+        </tr>
+
+    </table>
+    <hr size="3" noshade>
+
+    <h3> My Skills</h3>
+
+    <!-- table inside table for the current layout, this increase complexity, hence not 
+    implemente using html-->
+
+    <!-- we can use this or we can create whole in one table -->
+    <table cellspacing="10">
+        <tr>
+            <td><!-- this whole table is now treated as single row-->
+                <table>
+                <tr>
+                    <td>Java development</td>
+                    <td>🌟🌟🌟</td>
+                </tr>
+        
+                <tr>
+                    <td>Photography</td>
+                    <td>🌟🌟🌟🌟🌟</td>
+                </tr>
+                <tr>
+                    <td>Web development </td>
+                    <td>🌟🌟🌟 </td>
+                    
+                </tr>
+                <tr>
+                    <td>Video Editing</td>
+                    <td>🌟🌟🌟</td>
+                </tr>
+            </table></td>
+
+
+            <td><!-- adjacent to first one, this also is treated as one table -->
+                <table>
+                    <tr>
+                        <td>Java development</td>
+                        <td>🌟🌟🌟</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Photography</td>
+                        <td>🌟🌟🌟🌟🌟</td>
+                    </tr>
+                    <tr>
+                        <td>Web development </td>
+                        <td>🌟🌟🌟 </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Video Editing</td>
+                        <td>🌟🌟🌟</td>
+                    </tr>
+                </table><!-- end of nested table -->
+            </td>
+        </tr>
+    </table><!-- end of main table -->
+
+
+
+
+    
+
+    <!--Satelite pages: Pages inside pages-->
+    
+    <a href="hobbies.html">My Hobbies</a><!-- Forwards to hobbies.html page inside same folder-->
+    <br>
+    <a href="contacts.html">Contact me here</a>
+    <hr size="3" noshade>
+
+
+
+
+</body>
+</html>
